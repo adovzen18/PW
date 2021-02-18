@@ -1,11 +1,43 @@
-<div class="header">
-  <h1>Header</h1>
-  <p>Alina Dovzenko Photography</p>
-</div>
-.header {
-  padding: 60px;
-  text-align: center;
-  background: white;
-  color: black;
-  font-size: 30px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alina Dovzhenko</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header style="  background: black; text-align: center;">
+    <nav style="width: 1000px;">
+      <div><img style="height: 60px;" src="alina_logo.png"></div>
+      <div><a href="1.html">Portfolio</a></div>
+      <div><a href="2.html">About me</a></div>
+      <div><a href="3.html">Partners</a></div>
+      <div><a href="4.html">Contacts</a></div>
+    </nav>
+  </header>
+  <div style="width: 1000px; margin: auto;">
+    <table>
+
+        <tbody><tr>
+          <td style="width: 50%">  <h1>My works were printed in American, French and Russian magazines</h1></td>
+          <td style="width: 50%"><img style="width: 100%" src="images/IMG_5594.jpg"></td>
+        </tr>
+        <tr>
+          <td style="width: 40%; height: 500px"> <img style="height: 100%" src="images/IMG_5725.jpg"></td>
+          <td style="width: 60%; height: 500px"><img style="height: 100%" src="images/IMG_5778.jpg"></td>
+        </tr>
+
+    </tbody></table>
+ <img style="height: 225px;" src="images/IMG_6012.jpg">
+ <img style="height: 225px;" src="images/IMG_6005.jpg">
+
+    <img style="height: 225px;" src="images/IMG_6022.jpg">
+    <img style="height: 225px;" src="images/IMG_6061.jpg">
+
+
+
+    </div>
+
+
+
+</body>
+</html>
